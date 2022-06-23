@@ -147,7 +147,7 @@ if (changeMyMind = true){
 //CODE HERE
 if (changeMyMind !== false){
   console.log(changeMyMind);
-} else if (changeMyMind = true);{
+} else if (changeMyMind = true){
   console.log(changeMyMind)
 }
 
@@ -163,6 +163,8 @@ let z = 5;
 while(z>0){
   console.log(z)
   z -= 1
+  for (let i=z; i>0; i--)
+  console.log(z)
 }
 
 
